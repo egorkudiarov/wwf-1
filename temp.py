@@ -16,5 +16,3 @@ def get_recipes():
             if name == '':
                 return cook_book
             get_recipe(f, cook_book, name)
-
-def get_shop_list_by_dishes(dishes, person_count):
